@@ -2,7 +2,7 @@ const AsteriskManager = require("asterisk-manager");
 const ami = new AsteriskManager();
 
 const amiConfig = {
-  host: "192.168.0.178",
+  host: " ", //write_ your_asterisk-server_IP addr.
   port: 5038,
   username: "asterisk",
   password: "asterisk",

@@ -4,8 +4,8 @@ const ami = new AsteriskManager();
 const amiConfig = {
   host: " ", //write_ your_asterisk-server_IP addr.
   port: 5038,
-  username: "asterisk",
-  password: "asterisk",
+  username: "asterisk", // add_your_username of ami
+  password: "asterisk", // add_your_password of ami
 };
 
 ami.connect(amiConfig, (err) => {
